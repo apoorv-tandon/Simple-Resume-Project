@@ -1,0 +1,423 @@
+body{
+    margin:0px;
+}
+
+#body-header{
+    height:65vh;
+    background-image: url("static/macbook_mouse.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    
+}
+
+#unli{
+    text-align: center;
+    margin: 0px;
+    
+}
+
+
+li{
+    color:white;
+    display:inline-block;
+    margin-top: 0px;
+    margin:20px;
+    font-size: 1.4rem;
+    text-align: center;
+    transition: color 0.5s, border-bottom 4s;
+    
+}
+
+
+
+li:hover{
+    text-decoration: underline;
+    color: lightgray;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: lightgray;
+    
+}
+
+#name-head{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    
+    font-size: 3rem;
+    margin-top: 100px;
+    word-spacing: 3px;
+    letter-spacing: 0.1rem;
+}
+
+#soc-img{
+    height:30px;
+    width:30px;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+#social{
+    text-align:center;
+}
+
+#soc-img:hover{
+    box-shadow: 0px 0px 6px 4px;
+}
+
+#my-pic{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    position: relative;
+    
+    
+}
+
+#my-pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  
+}
+
+#info{
+    margin:auto;
+    width:70%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 38px;
+    font-size: 1.6rem;
+
+}
+
+#bold{
+    font-weight: bold;
+    font-style: italic;
+}
+
+section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+/* Skills */
+
+#skills{
+    height: 400px;
+}
+
+#skills-head{
+
+    line-height: 48px;
+    font-size: 2.5rem;
+    color: #2857a4;
+    width: auto;
+    font-weight: 400;
+
+}
+
+#outer-cont{
+    display: flex;
+    flex-direction: row;
+    height:30px;
+    width:200px;
+    background-color: lightgray;
+    border-radius: 15px;
+    border-bottom: 50px;
+    
+   
+}
+
+#outer-cont div{
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    
+    
+}
+
+#css{
+    background-color: blue;
+    width:80%;
+}
+
+#html{
+    background-color: darkmagenta;
+    width:60%;
+}
+
+#javascript{
+    background-color: darkgreen;
+    width:60%;
+}
+
+#nodejs{
+    background-color: red;
+    width:80%;
+
+}
+
+#work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:50%;
+    height:inherit;  
+}
+
+#contact{
+    height:auto;
+    background-image: linear-gradient(45deg,#2857a4,#403066);
+}
+
+#contact-head{
+    line-height: 48px;
+    font-size: 2.5rem;
+    color: white;
+    width: auto;
+    font-weight: 400;
+}
+
+#contact-det{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+#box{
+    background-color: transparent;
+    color:white;
+    font-size: large;
+   
+    border:0px solid transparent;
+    border-bottom: 2px solid white;
+    width:500px;
+    background: transparent;
+    outline: none;
+    
+    border-bottom: 2px solid white;
+    
+}
+
+#cont-box{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+    height:60px;
+    width:220px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: #2857a4;
+}
+
+#contact-desc h3{
+    color:white;
+    font-size: 1.4rem;;
+}
+
+#contact-desc i{
+    color:white;
+}
+
+#contact-desc p{
+    color:lightgray;
+}
+
+#contact-desc span{
+    color:lightgray;
+}
+
+#port-head{
+
+    line-height: 48px;
+    font-size: 2.5rem;
+    color: #2857a4;
+    width: auto;
+    font-weight: 400;
+
+}
+
+#portfolio{
+    height: 900px;
+}
+
+#portf-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:70%;
+}
+
+#portf-img img{
+    height:310px;
+    width: 310px;
+    position: relative;
+}
+
+#portf-img img:hover{
+    background-color: lightgray;
+    transition: color 0.5s, border-bottom 4s;
+    box-shadow: 0px 0px 6px 4px;
+    color: gray;
+}
+
+/* Work Experience */
+
+#experience{
+    height:auto;
+}
+
+#exp-head{
+    line-height: 48px;
+    font-size: 2.5rem;
+    color: #2857a4;
+    width: auto;
+    font-weight: 400;
+
+}
+
+#timeline{
+    position:relative;
+    width:70%;
+    /* border:2px solid black; */
+}
+
+.timeline-box{
+    position:relative;
+    width:40%;
+    left:5%;
+    /* border:2px solid black; */
+    min-height: 150px;
+    margin:5px;
+}
+
+.timeline-box:nth-child(2n){
+    left:53%;
+    
+}
+
+#sub-head{
+    text-align: right;
+    color: #2857a4;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+#sub-head1{
+    text-align: right;
+    color: orange;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+#sub-head2{
+    text-align: right;
+    color: gray;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+#timeline-text{
+    margin:5px;
+    color: gray;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#timeline-divider{
+    position: absolute;
+    height:75%;
+    left:50%;
+    top:9%;
+    width: 0;
+    border:3px dashed lightgray;
+
+}
+
+.timeline-travel{
+    position: sticky;
+    top:25%;
+    rotate: 90deg;
+    z-index: 2;
+    color:#2857a4;
+}
+
+.timeline-box:nth-child(2n+1):after{
+    content: '';
+    top:30%;
+    right:-12.8%;
+    position: absolute;
+    height:0.5rem;
+    width:0.5rem;
+    background-color:gray;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n):before{
+    content: '';
+    top:30%;
+    left:-9.2%;
+    position: absolute;
+    height:0.5rem;
+    width:0.5rem;
+    background-color:gray;
+    z-index: 1;
+    
+}
+
+/* Education */
+
+.timeline-travel2{
+    position: sticky;
+    top:25%;
+    rotate: 90deg;
+    z-index: 2;
+    color:#2857a4;
+
+}
